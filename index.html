@@ -47,16 +47,26 @@
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Songs.." title="Type in a Song">
 
 <ul id="myUL">
-  <li><a href="#"> </a></li>
-  <li><a href="#"> </a></li>
-
-  <li><a href="#"> </a></li>
-  <li><a href="#"> </a></li>
-
-  <li><a href="#"> </a></li>
-  <li><a href="#"> </a></li>
-  <li><a href="#"> </a></li>
-</ul>
+  <div>
+  <div style="float: left">
+  <a href="Mainpage.htm" style="color: #000000; text-decoration: none;"/a>
+  <img
+  src="https://github.com/mr-beann/music-player/blob/main/covers/polish.png?raw=true" width="70"/>
+  </div>
+  <div>
+      Polish Cow
+  </div>
+  <div>
+      By Tańcząca Krowa
+  </div>
+  <div>
+      4:03
+  </div>
+  <div>
+      ____________________________________________________
+  </div>
+  </div>
+  
 
 <script>
 function myFunction() {
@@ -71,7 +81,7 @@ function myFunction() {
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
         } else {
-            li[i].style.display = "No Songs Matching That Name ):";
+            li[i].style.display = "No Songs Matching That Name";
         }
     }
 }
